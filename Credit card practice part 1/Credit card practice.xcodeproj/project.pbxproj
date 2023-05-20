@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D971F19C2A1812F1007CC985 /* Credit_card_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971F19B2A1812F1007CC985 /* Credit_card_practiceApp.swift */; };
+		D971F1A02A1812F3007CC985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D971F19F2A1812F3007CC985 /* Assets.xcassets */; };
+		D971F1A32A1812F3007CC985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D971F1A22A1812F3007CC985 /* Preview Assets.xcassets */; };
+		D971F1AC2A181334007CC985 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971F1AB2A181334007CC985 /* CardView.swift */; };
+		D971F1AF2A181781007CC985 /* Suisse Int'l Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D971F1AE2A181781007CC985 /* Suisse Int'l Mono.ttf */; };
+		D971F1B12A1839DC007CC985 /* CreditCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971F1B02A1839DC007CC985 /* CreditCardData.swift */; };
+		D971F1B32A183BD4007CC985 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971F1B22A183BD4007CC985 /* MainScreenViewModel.swift */; };
+		D971F1B62A183DC7007CC985 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971F1B52A183DC7007CC985 /* MainView.swift */; };
+		D971F1C22A184016007CC985 /* Sentient.otf in Resources */ = {isa = PBXBuildFile; fileRef = D971F1B82A184016007CC985 /* Sentient.otf */; };
+		D971F1C62A184016007CC985 /* Sentient-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D971F1BC2A184016007CC985 /* Sentient-Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D971F1982A1812F1007CC985 /* Credit card practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit card practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971F19B2A1812F1007CC985 /* Credit_card_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit_card_practiceApp.swift; sourceTree = "<group>"; };
+		D971F19F2A1812F3007CC985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D971F1A22A1812F3007CC985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D971F1AB2A181334007CC985 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D971F1AE2A181781007CC985 /* Suisse Int'l Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suisse Int'l Mono.ttf"; sourceTree = "<group>"; };
+		D971F1B02A1839DC007CC985 /* CreditCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardData.swift; sourceTree = "<group>"; };
+		D971F1B22A183BD4007CC985 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		D971F1B52A183DC7007CC985 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D971F1B72A183EFE007CC985 /* Credit-card-practice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Credit-card-practice-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D971F1B82A184016007CC985 /* Sentient.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sentient.otf; sourceTree = "<group>"; };
+		D971F1BC2A184016007CC985 /* Sentient-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sentient-Bold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D971F1952A1812F1007CC985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D971F18F2A1812F1007CC985 = {
+			isa = PBXGroup;
+			children = (
+				D971F19A2A1812F1007CC985 /* Credit card practice */,
+				D971F1992A1812F1007CC985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D971F1992A1812F1007CC985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D971F1982A1812F1007CC985 /* Credit card practice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D971F19A2A1812F1007CC985 /* Credit card practice */ = {
+			isa = PBXGroup;
+			children = (
+				D971F1B72A183EFE007CC985 /* Credit-card-practice-Info.plist */,
+				D971F1AD2A181337007CC985 /* Views */,
+				D971F1AA2A181328007CC985 /* Viewmodels */,
+				D971F1A92A18131E007CC985 /* Models */,
+				D971F19B2A1812F1007CC985 /* Credit_card_practiceApp.swift */,
+				D971F19F2A1812F3007CC985 /* Assets.xcassets */,
+				D971F1AE2A181781007CC985 /* Suisse Int'l Mono.ttf */,
+				D971F1CC2A184024007CC985 /* Sentient */,
+				D971F1A12A1812F3007CC985 /* Preview Content */,
+			);
+			path = "Credit card practice";
+			sourceTree = "<group>";
+		};
+		D971F1A12A1812F3007CC985 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D971F1A22A1812F3007CC985 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D971F1A92A18131E007CC985 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D971F1B02A1839DC007CC985 /* CreditCardData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D971F1AA2A181328007CC985 /* Viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				D971F1B22A183BD4007CC985 /* MainScreenViewModel.swift */,
+			);
+			path = Viewmodels;
+			sourceTree = "<group>";
+		};
+		D971F1AD2A181337007CC985 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D971F1AB2A181334007CC985 /* CardView.swift */,
+				D971F1B52A183DC7007CC985 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D971F1CC2A184024007CC985 /* Sentient */ = {
+			isa = PBXGroup;
+			children = (
+				D971F1B82A184016007CC985 /* Sentient.otf */,
+				D971F1BC2A184016007CC985 /* Sentient-Bold.otf */,
+			);
+			path = Sentient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D971F1972A1812F1007CC985 /* Credit card practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971F1A62A1812F3007CC985 /* Build configuration list for PBXNativeTarget "Credit card practice" */;
+			buildPhases = (
+				D971F1942A1812F1007CC985 /* Sources */,
+				D971F1952A1812F1007CC985 /* Frameworks */,
+				D971F1962A1812F1007CC985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Credit card practice";
+			productName = "Credit card practice";
+			productReference = D971F1982A1812F1007CC985 /* Credit card practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D971F1902A1812F1007CC985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D971F1972A1812F1007CC985 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D971F1932A1812F1007CC985 /* Build configuration list for PBXProject "Credit card practice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D971F18F2A1812F1007CC985;
+			productRefGroup = D971F1992A1812F1007CC985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D971F1972A1812F1007CC985 /* Credit card practice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D971F1962A1812F1007CC985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971F1C62A184016007CC985 /* Sentient-Bold.otf in Resources */,
+				D971F1C22A184016007CC985 /* Sentient.otf in Resources */,
+				D971F1A32A1812F3007CC985 /* Preview Assets.xcassets in Resources */,
+				D971F1A02A1812F3007CC985 /* Assets.xcassets in Resources */,
+				D971F1AF2A181781007CC985 /* Suisse Int'l Mono.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D971F1942A1812F1007CC985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971F1B62A183DC7007CC985 /* MainView.swift in Sources */,
+				D971F1B32A183BD4007CC985 /* MainScreenViewModel.swift in Sources */,
+				D971F1AC2A181334007CC985 /* CardView.swift in Sources */,
+				D971F1B12A1839DC007CC985 /* CreditCardData.swift in Sources */,
+				D971F19C2A1812F1007CC985 /* Credit_card_practiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D971F1A42A1812F3007CC985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D971F1A52A1812F3007CC985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D971F1A72A1812F3007CC985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Credit card practice/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZQHT294V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credit-card-practice-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AVesich.Credit-card-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D971F1A82A1812F3007CC985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Credit card practice/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZQHT294V9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credit-card-practice-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AVesich.Credit-card-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D971F1932A1812F1007CC985 /* Build configuration list for PBXProject "Credit card practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971F1A42A1812F3007CC985 /* Debug */,
+				D971F1A52A1812F3007CC985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D971F1A62A1812F3007CC985 /* Build configuration list for PBXNativeTarget "Credit card practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971F1A72A1812F3007CC985 /* Debug */,
+				D971F1A82A1812F3007CC985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D971F1902A1812F1007CC985 /* Project object */;
+}
